@@ -2,6 +2,10 @@ import React, {useEffect} from 'react'
 import {Box} from '@mui/material';
 
 function ProductCardHeader({img}) {
+
+  useEffect(()=>{
+    console.log();
+  },[]);
   return (
     <Box
         component="img"
